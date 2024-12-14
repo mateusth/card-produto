@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.card {
+  margin: auto;
+  padding: 20px;
+  width: 400px;
+  border: rgb(181, 179, 179) solid 1px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px 10px 0 0;
+
+}
+#product {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: auto;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+img {
+  margin: auto;
+  border-radius: 15%;
+  outline: rgb(56, 0, 108) solid 4px;
+  border: rgb(255, 255, 255) solid 4px;
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+}
+
+section {
+  text-align: center;
+}
+
+#price {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 15px 0;
+  height: 20px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 25px;
+}
+
+#price, #buy {
+  color: rgb(56, 0, 108);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#description {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  padding: 20px 20px 0 20px;
+  margin: 20px 0;
+  text-align: justify;
+}
+
+#buy {
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 6px;
+  margin: 10px;
+  border: rgb(56, 0, 108) solid 2px;
+  font-size: 12px;
+  font-weight: bold;
+}
