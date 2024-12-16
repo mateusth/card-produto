@@ -15,7 +15,7 @@ async function fetchProduct () {
         exibir(data);
     } catch (error) {
         console.log(error.message)
-    }
+    } 
 }
 function exibir(deputados) {
     let main = document.querySelector("main");
